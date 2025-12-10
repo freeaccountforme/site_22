@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оставить индивидуальный заказ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <a href="index.html">
+             <img src="images/m.png" alt="логотип">
+            </a>
+        </div>
+        <div class="nav-container">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main-nav">
+       <a href="index.html" class="nav-link" data-page="index">Главная</a>
+                <a href="page1.html" class="nav-link" data-page="page1">История бренда</a>
+                <a href="page2.html" class="nav-link" data-page="page2">Ассортимент</a>
+                <a href="contact.html" class="nav-link" data-page="contact">Индивидуальный заказ</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="page-title">Свяжитесь с нами / Оставьте Заявку</div>
+
+        <div class="section-block">
+            <div class="section-text">
+                Вы хотите заказать определенный инструмент?
+                Используйте форму ниже, и мы сообщим вам о наличии.
+            </div>
+        </div>
+
+        <div class="form-container section-block">
+            <form action="https://www.google.com/search" method="GET" class="feedback-form">
+                <div class="form-group">
+                    <label for="user_query">Наименование товара</label>
+                                    <input type="text" id="user_query" name="q" placeholder="Например: 'лучшие технологии 2024'" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="item_count">Количество интересующих продуктов:</label>
+                    <input type="number" id="item_count" name="count" min="1" max="50" value="1" required>
+                    
+                </div>
+
+             
+                <div class="form-group">
+                    <div class="radio-label">Предпочитаемый способ связи:</div>
+                    <div class="radio-options">
+                        <input type="radio" id="contact_email" name="contact_method" value="email" checked required>
+                        <label for="contact_email">Электронная почта</label>
+
+                        <input type="radio" id="contact_phone" name="contact_method" value="phone" required>
+                        <label for="contact_phone">Телефон</label>
+
+                        <input type="radio" id="contact_telegram" name="contact_method" value="telegram" required>
+                        <label for="contact_telegram">Telegram</label>
+                    </div>
+                </div>
+
+           
+                <div class="form-group">
+                    <label for="user_email">Ваш Email (для обратной связи):</label>
+                    <input type="text" id="user_email" name="email" placeholder="ваш@email.com">
+               
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-button">Отправить Запрос</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="footer-text">© 2025 Music Shop. Все права защищены.</div>
+        <div class="footer-social">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

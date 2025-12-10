@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ассортимент</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+</head>
+<body>
+    <div class="header-container">
+        <div class="logo">
+            <a href="index.html">
+                    <img src="images/m.png" alt="логотип">
+            </a>
+        </div>
+        <div class="nav-container">
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="main-nav">
+               <a href="index.html" class="nav-link" data-page="index">Главная</a>
+                <a href="page1.html" class="nav-link" data-page="page1">История бренда</a>
+                <a href="page2.html" class="nav-link" data-page="page2">Ассортимент</a>
+                <a href="contact.html" class="nav-link" data-page="contact">Индивидуальный заказ</a>
+            </div>
+        </div>
+    </div>
+
+<header class="text-center my-4">
+    <h1>Музыкальные инструменты</h1>
+</header>
+
+<nav class="text-center mb-3">
+    <a href="#catalog">Ассортимент</a> |
+    <a href="#top">К началу</a>
+</nav>
+
+<main class="container">
+    <div class="row" id="men-catalog"></div>
+    <div class="text-center mt-3">
+        <button id="orderAllMen" class="btn btn-primary">Заказать выбранные товары</button>
+    </div>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>
+
+
